@@ -1,0 +1,46 @@
+{
+  "item": {
+    "id": "com.reid.pomodoro",
+    "restype": "quick_app",
+    "name": "pomodoro",
+    "description": "番茄钟 (Pomodoro)\n\n简介\n\n本项目是一款专为小米智能手表打造的番茄钟原生快应用。应用遵循极简设计理念，完美贴合圆形表盘操作习惯，旨在帮助您在手腕上轻量、高效地管理时间，提升日常工作与学习的专注力。\n\n运行平台\n\n- 操作系统：Vela OS / HyperOS\n- 设备类型：智能手表 (支持 Xiaomi Watch S3、 S4 Sport、 S4(非41mm版本))\n- 应用格式：rpk快应用\n\n核心功能特点\n\n- 灵活的番茄工作流：支持自定义专注时长、短休时长、长休时长以及目标轮数。\n- 专属息屏微光模式：极简的暗光进度显示，加入防烧屏策略，时刻掌握进度且省电。\n- 沉浸式专注体验：支持“专注防熄屏”、振动反馈与铃声提醒，不错过任何一个节点。\n- 原生级流畅交互：深度适配圆形表盘，提供弧形滚动条与表冠操作（S3因设备硬件限制，表冠操作不支持），界面顺滑，视觉无遮挡。\n\n使用文档\n\n1. 基础操作：开始专注\n- 打开应用，主界面中央将显示当前的专注时间（默认 Focus 模式）。\n- 左右滑动屏幕：可以随时在“专注”、“短休”和“长休”模式之间进行快速切换。\n- 点击底部的“开始”按键，启动倒计时。\n- 计时过程中，您可以随时点击“暂停”，或点击相应的控件提前终止当前番茄钟。\n- 点击屏幕中央的大字号时间，可快捷进入息屏微光模式，可再次点击屏幕退出息屏微光模式或遮盖屏幕直接完全息屏（不影响手表息屏显示的设置）。\n\n2. 个性化计时设置\n在主界面向上滑动屏幕（或向下转动表冠），即可进入计时设置页面：\n- 专注时长：可按 5 分钟步长增减（推荐 25 分钟）。\n- 短休时长：可按 1 分钟步长增减（推荐 5 分钟）。\n- 长休时长：可按 5 分钟步长增减（推荐 15 分钟）。\n- 目标轮数：设定您单次任务计划完成的番茄钟循环次数（最高 8 轮）。\n\n3. 提醒与系统设置\n在计时设置页面继续向下滑动，进入提醒与息屏设置页面：\n- 振动提醒：开启后，专注结束或休息结束时手表将振动提醒。\n- 提示铃声：开启后，伴随振动播放清脆的提示音。\n- 息屏微光 (AOD)：允许应用在屏幕休眠时显示极简的进度环与暗色时间（需系统开启息屏显示）。\n- 专注防熄屏：开启后，只要处于专注计时中，手表屏幕将保持常亮（注：会增加设备耗电）。\n\n完成所有设置后，点击页面底部的“完成”按钮即可保存并返回主界面，立即开启您的高效专注之旅！",
+    "preview": [
+      "media/focus_ready.png",
+      "media/focus_aod.png",
+      "media/short_break.png",
+      "media/short_break_aod.png",
+      "media/long_rest.png",
+      "media/long_rest_aod.png",
+      "media/settings_pref.png",
+      "media/settings_timer.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/ultimate_cover.png",
+    "author": [
+      {
+        "name": "bandbbs_351555",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "GitHub开源地址",
+      "url": "https://github.com/ReidPu/Xiaomi-Watch-Pomodoro",
+      "icon": "github-logo"
+    }
+  ],
+  "downloads": {
+    "xmws3": {
+      "version": "1.0.5",
+      "file_name": "downloads/com.reid.pomodoro.release.1.0.5.rpk",
+      "versionCode": 1
+    },
+    "xmws4": {
+      "version": "1.0.5",
+      "file_name": "downloads/com.reid.pomodoro.release.1.0.5.rpk",
+      "versionCode": 1
+    }
+  },
+  "ext": {}
+}
